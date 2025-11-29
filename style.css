@@ -89,7 +89,8 @@ html{
 .input-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
 #addTaskBtn{
     box-sizing: content-box;
@@ -102,7 +103,7 @@ html{
     border-radius: 5px;
     cursor: pointer;
     font-size: 17px;
-    padding: 0 3px;
+    padding: 2px 4px;
 }
 #addTaskBtn:hover{
 
@@ -110,14 +111,17 @@ html{
 }
 
 #taskInput{
-    height: 8vmin;
+    height: 7vmin;
     width: 60vmin;
     font-size: 3vmin;
     background-color: #E6EBE5;
     border: none;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 10px;
     outline: none;
+}
+#taskInput:focus{
+    border: 2px solid #DDA853;
 }
 #taskInput:hover{
     box-shadow: 0 0 10px black;
@@ -206,11 +210,23 @@ ul li span:hover{
     #addTaskBtn{
     font-weight: 400;
     width: 17vmin;
-    font-size: 16px;
+    font-size: 15px;
+    padding: 5px 10px;
     }
 
     #taskList{
         height: 80%;
+    }
+    #taskInput{
+        padding:18px 5px;
+    }
+    .dark-btn{
+        height: 30px;
+        width: 30px;
+    }
+    .light-btn{
+        height: 30px;
+        width: 30px;
     }
 }
 
@@ -234,6 +250,7 @@ ul li span:hover{
         height: 8vmin;
         width: 66vmin;
         font-size: 19px;
+        
     }
     #addTaskBtn{
     font-weight: 600;
