@@ -118,6 +118,7 @@ html{
     font-size: 3vmin;
     background-color: #E6EBE5;
     border: none;
+    margin-right: 80px;
     border-radius: 10px;
     padding: 0px 10px;
     outline: none;
@@ -136,6 +137,7 @@ html{
     scroll-behavior: smooth;
 }
 #taskList li{
+    width: 85%;
     font-size: 28px;
     list-style: none;
     padding: 15px 8px 15px 50px;
@@ -170,8 +172,8 @@ ul li.checked::before{
 
 ul li span{
     position: absolute;
-    right: 0;
-    top: 5px;
+    left: 600px;
+    top: 10px;
     width: 40px;
     height: 40px;
     font-size: 35px;
