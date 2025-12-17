@@ -141,7 +141,8 @@ html{
     padding: 15px 8px 15px 50px;
     position: relative;
     color: white;
-
+    display: flex;
+    align-items: center;
 }
 
 ul li::before{
@@ -153,7 +154,7 @@ ul li::before{
     background-image: url("./images/unchecked.png");
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 18px;
     left: 8px;
 }
 

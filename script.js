@@ -13,7 +13,7 @@ const html = document.querySelector("html");
 
 function addTask(){
     if(taskInput.value === ''){
-        alert("Please enter a task");
+        taskInput.focus();
     } else{
         let li = document.createElement("li");
         li.innerHTML = taskInput.value;
@@ -48,7 +48,7 @@ function showList(){
 }
 
 showList();
-    
+
 themeBtn.addEventListener('click',()=>{
     console.log("clicked");
     
